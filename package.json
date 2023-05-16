@@ -1,0 +1,25 @@
+{
+  "name": "@offday/evx-ts",
+  "version": "1.0.0",
+  "description": "Typescript port of evx",
+  "type": "module",
+  "main": "dist/evx-ts.cjs.js",
+  "module": "dist/evx-ts.esm.js",
+  "browser": "dist/evx-ts.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "rollup": "^3.21.7",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "ISC"
+}
