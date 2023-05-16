@@ -7,7 +7,7 @@ const targets = "defaults and supports es6-module";
 
 export default defineConfig([
   {
-    input: "src/main.ts",
+    input: "src/evx-ts.ts",
     output: {
       name: "evx-ts",
       file: pkg.browser,
@@ -29,7 +29,7 @@ export default defineConfig([
     ],
   },
   {
-    input: "src/main.ts",
+    input: "src/evx-ts.ts",
     plugins: [
       getBabelOutputPlugin({
         presets: [["@babel/preset-env", { targets }]],
